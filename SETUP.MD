@@ -15,25 +15,25 @@ The Assembler, LWASM is part of the LWTOOLS distribution (along with documentati
 
 Here are some of the output options available.
 
-RAW - Just a binary file containing the assembled code.
+* RAW - Just a binary file containing the assembled code.
 
-DECB - A binary file containing the assembled code with the DEC BASIC header added so you can use LOADM to load it into the Color Computer.
+* DECB - A binary file containing the assembled code with the DEC BASIC header added so you can use LOADM to load it into the Color Computer.
 
-Motorola S-Record - This is a legacy format standard, often used by EPROM programmers.
+* Motorola S-Record - This is a legacy format standard, often used by EPROM programmers.
 
-Intel HEX - This is a different format standard, also often used by EPROM programmers.
+* Intel HEX - This is a different format standard, also often used by EPROM programmers.
 
-0S9 - This is a format used by OS9 for the 6×09 modules.
+* 0S9 - This is a format used by OS9 for the 6×09 modules.
 
 ### Command line options for LWASM
 
---6309  - Assemble for use with the 6309
---6800compat  - Assemble for use with the 6800 compatibility mode
---6809  - Assemble for use with the 6809 and will work if you have a 6309 as well
---decb - Add the DEC BASIC header to the output
---format=_type_     - Specify the output format, IE decb, os9, raw, srec, or ihex
---list - Generate a listing file (if supplied with a filename) to STDOUT
---output - Specify the output filename (if not supplied, `a.out` is used)
+* --6309  - Assemble for use with the 6309
+* --6800compat  - Assemble for use with the 6800 compatibility mode
+* --6809  - Assemble for use with the 6809 and will work if you have a 6309 as well
+* --decb - Add the DEC BASIC header to the output
+* --format=_type_     - Specify the output format, IE decb, os9, raw, srec, or ihex
+* --list - Generate a listing file (if supplied with a filename) to STDOUT
+* --output - Specify the output filename (if not supplied, `a.out` is used)
 
 There are also some other options, but these are the ones I use most often. There are also single letter equivalents for these options that you can find by asking for help by typing `lwasm --help`.
 
