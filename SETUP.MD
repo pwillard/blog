@@ -95,7 +95,7 @@ If we focus on the DECB disk images, there are 3 major commands that can be used
 
 1. decb dskini `diskname.dsk`   - Create a new disk image
 2. decb copy _options_ `sourcefile` `diskname.dsk,destfile` - Copy a file to a disk image
-3. decb copy _options_ `diskname.dsk,sourcefile` `diskname.dsk,destfile` - Copy a file from a disk image
+3. decb copy _options_ `diskname.dsk,sourcefile` `destfile` - Copy a file from a disk image
 
 Options 2 and 3 will also require you to specify options related to the file types being copied. For example, using option `-2` will copy a binary file to/from a disk image.
 
